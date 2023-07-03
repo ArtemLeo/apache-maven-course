@@ -5,15 +5,14 @@
     <groupId>com.artemdev</groupId>
     <artifactId>apache-maven-course</artifactId>
     <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>apache-maven-course</name>
 
     <modules>
         <module>database</module>
         <module>service</module>
         <module>web</module>
     </modules>
-    <packaging>pom</packaging>
-
-    <name>apache-maven-course</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
