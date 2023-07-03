@@ -16,9 +16,11 @@ target/
 .idea/
 
 # Other
+.DS_Store
 .clover
 *.log
 /*.rc
 atlassian-ide-plugin.xml
 dependency-reduced-pom.xml
 out
+
