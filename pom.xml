@@ -4,8 +4,13 @@
 
     <groupId>com.artemdev</groupId>
     <artifactId>apache-maven-course</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <packaging>war</packaging>
+    <version>1.0.0-SNAPSHOT</version>
+
+    <modules>
+        <module>database</module>
+        <module>service</module>
+    </modules>
+    <packaging>pom</packaging>
 
     <name>apache-maven-course</name>
 
