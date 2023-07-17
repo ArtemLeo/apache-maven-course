@@ -1,7 +1,10 @@
 package com.artemdev.service;
 
+import com.artemdev.service.service.UserService;
+
 public class AppRunner {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        var userService = new UserService();
+        System.out.println(userService.getUser(25L));
     }
 }

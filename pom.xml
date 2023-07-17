@@ -15,7 +15,9 @@
     </modules>
 
     <scm>
-
+        <connection>scm:git@github.com:ArtemLeo/apache-maven-course.git</connection>
+        <developerConnection>scm:git@github.com:ArtemLeo/apache-maven-course.git</developerConnection>
+        <url>https://github.com/ArtemLeo/apache-maven-course</url>
     </scm>
 
     <!-- project.groupId -->
@@ -137,7 +139,7 @@
                     <artifactId>maven-compiler-plugin</artifactId>
                     <version>3.8.1</version>
                     <configuration>
-<!--                    <sourse>18</sourse>-->
+                        <source>18</source>
                         <target>18</target>
                     </configuration>
                     <executions>
@@ -153,7 +155,7 @@
                     <artifactId>maven-surefire-plugin</artifactId>
                     <version>3.0.0-M5</version>
                     <configuration>
-                        <!--<skip>true</skip>-->
+                        <skip>true</skip>
                     </configuration>
                 </plugin>
                 <plugin>
