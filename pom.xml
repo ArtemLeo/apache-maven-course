@@ -15,9 +15,9 @@
     </modules>
 
     <scm>
-        <connection>scm:git@github.com:ArtemLeo/apache-maven-course.git</connection>
-<!--        <developerConnection>scm:git@github.com:ArtemLeo/apache-maven-course.git</developerConnection>-->
-<!--        <url>https://github.com/ArtemLeo/apache-maven-course</url>-->
+        <connection>scm:git:git@github.com:ArtemLeo/apache-maven-course.git</connection>
+        <developerConnection>scm:git:git@github.com:ArtemLeo/apache-maven-course.git</developerConnection>
+        <url>https://github.com/ArtemLeo/apache-maven-course</url>
     </scm>
 
     <!-- project.groupId -->
