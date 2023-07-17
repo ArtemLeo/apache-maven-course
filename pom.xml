@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.artemdev</groupId>
@@ -17,8 +18,7 @@
         <connection>scm:git:git@github.com:ArtemLeo/apache-maven-course.git</connection>
         <developerConnection>scm:git:git@github.com:ArtemLeo/apache-maven-course.git</developerConnection>
         <url>https://github.com/ArtemLeo/apache-maven-course</url>
-      <tag>apache-maven-course-1.0.0</tag>
-  </scm>
+    </scm>
 
     <!-- project.groupId -->
     <!-- settings. -->
@@ -53,14 +53,14 @@
                 <artifactId>postgresql</artifactId>
                 <version>42.5.4</version>
                 <scope>runtime</scope>
-                <!--<optional>true</optional>-->
+               <optional>true</optional>
             </dependency>
             <dependency>
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
                 <version>8.0.33</version>
                 <scope>runtime</scope>
-                <!--<optional>true</optional>-->
+                <optional>true</optional>
             </dependency>
 
             <dependency>
