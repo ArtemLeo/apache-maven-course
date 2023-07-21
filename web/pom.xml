@@ -8,7 +8,7 @@
     <parent>
         <artifactId>apache-maven-course</artifactId>
         <groupId>com.artemdev</groupId>
-        <version>1.0.1-SNAPSHOT</version>
+        <version>1.0.1</version>
     </parent>
 
     <dependencies>
@@ -20,7 +20,7 @@
         <dependency>
             <groupId>com.artemdev</groupId>
             <artifactId>service</artifactId>
-            <version>1.0.1-SNAPSHOT</version>
+            <version>1.0.1</version>
         </dependency>
 
         <dependency>
